@@ -1,0 +1,14 @@
+
+node_modules/
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log
+
+# Database and generated files
+cockroach-data/
+pgdata/
+data/
+*.sqlite
